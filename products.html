@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المنتجات - VITACTIVE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- الترويسة -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo_processed.png" alt="VITACTIVE Logo">
+            </a>
+            
+            <div class="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">الرئيسية</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">من نحن</a></li>
+                    <li class="nav-item"><a href="products.html" class="nav-link">المنتجات</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">الخدمات</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">اتصل بنا</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary">احصل على استشارة</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- قسم البداية -->
+    <section class="products-hero">
+        <div class="container">
+            <h1 class="products-hero-title fade-in">منتجاتنا</h1>
+            <p class="products-hero-subtitle fade-in">اكتشف مجموعتنا المتنوعة من المكملات الغذائية عالية الجودة</p>
+            
+            <div class="products-filter">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="vitamins">الفيتامينات</button>
+                <button class="filter-btn" data-filter="minerals">المعادن</button>
+                <button class="filter-btn" data-filter="protein">البروتين</button>
+                <button class="filter-btn" data-filter="energy">الطاقة</button>
+                <button class="filter-btn" data-filter="immunity">المناعة</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المنتجات -->
+    <section class="section products">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-card vitamins immunity scale-in">
+                    <img src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="فيتامين متعدد" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">فيتامين متعدد يومي</h3>
+                        <p class="product-description">مكمل غذائي شامل يحتوي على جميع الفيتامينات والمعادن الأساسية لدعم الصحة العامة.</p>
+                        <p class="product-price">199 ريال</p>
+                        <a href="#" class="btn btn-primary">اطلب الآن</a>
+                    </div>
+                </div>
+                
+                <div class="product-card vitamins scale-in">
+                    <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="أوميغا 3" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">أوميغا 3 المركز</h3>
+                        <p class="product-description">مكمل غذائي غني بأحماض أوميغا 3 الدهنية لدعم صحة القلب والدماغ.</p>
+                        <p class="product-price">149 ريال</p>
+                        <a href="#" class="btn btn-primary">اطلب الآن</a>
+                    </div>
+                </div>
+                
+                <div class="product-card vitamins immunity scale-in">
+                    <img src="https://images.unsplash.com/photo-1616671276441-2f2c401e37dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="فيتامين د" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">فيتامين د3 المركز</h3>
+                        <p class="product-description">مكمل غذائي عالي التركيز من فيتامين د3 لدعم صحة العظام وتعزيز المناعة.</p>
+                        <p class="product-price">129 ريال</p>
+                        <a href="#" class="btn btn-primary">اطلب الآن</a>
+                    </div>
+                </div>
+                
+                <div class="product-card minerals scale-in">
+                    <img src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="مغنيسيوم" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">مغنيسيوم متقدم</h3>
+                        <p class="product-description">مكمل غذائي غني بالمغنيسيوم لدعم صحة العضلات والأعصاب وتحسين جودة النوم.</p>
+                        <p class="product-price">139 ريال</p>
+                        <a href="#" class="btn btn-primary">اطلب الآن</a>
+                    </div>
+                </div>
+                
+                <div class="product-card minerals scale-in">
+                    <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="زنك" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">زنك بلس</h3>
+                        <p class="product-description">مكمل غذائي غني بالزنك والنحاس لدعم جهاز المناعة وصحة البشرة.</p>
+                        <p class="product-price">119 ريال</p>
+                        <a href="#" class="btn btn-primary">اطلب الآن</a>
+                    </div>
+                </div>
+                
+                <div class="product-card protein scale-in">
+                    <img src="https://images.unsplash.com/photo-1593095948071-474c5cc2989d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="بروتين مصل اللبن" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">بروتين مصل اللبن</h3>
+                        <p class="product-description">مكمل غذائي غني بالبروتين عالي الجودة لدعم نمو العضلات والتعافي بعد التمرين.</p>
+                        <p class="product-price">249 ريال</p>
+                        <a href="#" class="btn btn-primary">اطلب الآن</a>
+                    </div>
+                </div>
+                
+                <div class="product-card energy scale-in">
+                    <img src="https://images.unsplash.com/photo-1606937898591-7d9d6b7f6f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="مكمل الطاقة" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">مكمل الطاقة المتقدم</h3>
+                        <p class="product-description">مكمل غذائي يحتوي على مزيج من الفيتامينات والمعادن والأعشاب لتعزيز الطاقة والتركيز.</p>
+                        <p class="product-price">179 ريال</p>
+                        <a href="#" class="btn btn-primary">اطلب الآن</a>
+                    </div>
+                </div>
+                
+                <div class="product-card immunity scale-in">
+                    <img src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="معزز المناعة" class="product-image">
+                    <div class="product-content">
+                        <h3 class="product-title">معزز المناعة الشامل</h3>
+                        <p class="product-description">مكمل غذائي يحتوي على مزيج من الفيتامينات والمعادن والأعشاب لتعزيز جهاز المناعة.</p>
+                        <p class="product-price">189 ريال</p>
+                        <a href="#" class="btn btn-primary">اطلب الآن</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الفوائد -->
+    <section class="section about">
+        <div class="container">
+            <h2 class="section-title fade-in">فوائد منتجاتنا</h2>
+            <p class="section-subtitle fade-in">تعرف على الفوائد الصحية التي تقدمها مكملاتنا الغذائية</p>
+            
+            <div class="about-grid">
+                <div class="about-content slide-in-right">
+                    <div style="margin-bottom: 30px;">
+                        <div class="benefit-item">
+                            <h3 style="color: var(--color-gold); margin-bottom: 10px; font-size: 1.3rem;">تعزيز الصحة العامة</h3>
+                            <p style="color: var(--color-gray-300);">تساعد مكملاتنا الغذائية على سد الفجوات الغذائية في نظامك الغذائي، مما يدعم الصحة العامة ويحسن الرفاهية.</p>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-bottom: 30px;">
+                        <div class="benefit-item">
+                            <h3 style="color: var(--color-gold); margin-bottom: 10px; font-size: 1.3rem;">تعزيز المناعة</h3>
+                            <p style="color: var(--color-gray-300);">تحتوي منتجاتنا على مكونات تدعم جهاز المناعة وتساعد الجسم على مقاومة الأمراض.</p>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-bottom: 30px;">
+                        <div class="benefit-item">
+                            <h3 style="color: var(--color-gold); margin-bottom: 10px; font-size: 1.3rem;">زيادة مستويات الطاقة</h3>
+                            <p style="color: var(--color-gray-300);">تساعد مكملاتنا على تحسين مستويات الطاقة ومكافحة التعب والإرهاق.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-content slide-in-left">
+                    <div style="margin-bottom: 30px;">
+                        <div class="benefit-item">
+                            <h3 style="color: var(--color-gold); margin-bottom: 10px; font-size: 1.3rem;">دعم صحة العظام والمفاصل</h3>
+                            <p style="color: var(--color-gray-300);">تحتوي بعض منتجاتنا على مكونات تدعم صحة العظام والمفاصل وتقلل من آلام المفاصل.</p>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-bottom: 30px;">
+                        <div class="benefit-item">
+                            <h3 style="color: var(--color-gold); margin-bottom: 10px; font-size: 1.3rem;">تحسين صحة القلب</h3>
+                            <p style="color: var(--color-gray-300);">تساعد بعض مكملاتنا على تحسين صحة القلب والأوعية الدموية وتنظيم مستويات الكوليسترول.</p>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-bottom: 30px;">
+                        <div class="benefit-item">
+                            <h3 style="color: var(--color-gold); margin-bottom: 10px; font-size: 1.3rem;">دعم الصحة العقلية</h3>
+                            <p style="color: var(--color-gray-300);">تحتوي بعض منتجاتنا على مكونات تدعم الصحة العقلية وتحسن المزاج والتركيز.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأسئلة الشائعة -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title fade-in">الأسئلة الشائعة</h2>
+            <p class="section-subtitle fade-in">إجابات على الأسئلة الشائعة حول منتجاتنا</p>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item active">
+                    <div class="faq-question">
+                        كيف أختار المكمل الغذائي المناسب لي؟
+                        <div class="faq-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            يعتمد اختيار المكمل الغذائي المناسب على احتياجاتك الصحية الفردية. نوصي بالتشاور مع أخصائي التغذية أو الطبيب لتحديد المكملات المناسبة لك. يمكنك أيضاً الاستفادة من خدمة الاستشارات التغذوية التي نقدمها لمساعدتك في اختيار المنتجات المناسبة.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        هل منتجاتكم آمنة للاستخدام؟
+                        <div class="faq-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            نعم، جميع منتجاتنا آمنة للاستخدام وتم اختبارها بدقة للتأكد من جودتها وسلامتها. نحن نلتزم بأعلى معايير الجودة في تصنيع منتجاتنا، ونستخدم مكونات طبيعية عالية الجودة. ومع ذلك، نوصي دائماً باستشارة الطبيب قبل بدء أي نظام للمكملات الغذائية، خاصة إذا كنت تعاني من حالات صحية معينة أو تتناول أدوية.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        ما هي مدة صلاحية منتجاتكم؟
+                        <div class="faq-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            تختلف مدة صلاحية منتجاتنا حسب نوع المنتج، ولكنها عادة ما تتراوح بين 18 و24 شهراً من تاريخ الإنتاج. يمكنك العثور على تاريخ انتهاء الصلاحية على عبوة المنتج. نوصي بتخزين المنتجات في مكان بارد وجاف بعيداً عن أشعة الشمس المباشرة للحفاظ على جودتها.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        هل يمكنني تناول أكثر من منتج في نفس الوقت؟
+                        <div class="faq-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            نعم، يمكن تناول أكثر من منتج في نفس الوقت، ولكن يجب الانتباه إلى عدم تجاوز الجرعات الموصى بها من الفيتامينات والمعادن. نوصي باستشارة أخصائي التغذية أو الطبيب قبل الجمع بين عدة مكملات غذائية لضمان سلامتك وتجنب أي تداخلات محتملة.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الدعوة للعمل -->
+    <section class="section about bg-gradient-gold">
+        <div class="container">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h2 class="section-title fade-in">ابدأ رحلتك نحو حياة أكثر صحة</h2>
+                <p class="section-subtitle fade-in">اكتشف منتجاتنا عالية الجودة واستفد من فوائدها الصحية المتعددة</p>
+                <div style="margin-top: 30px;">
+                    <a href="contact.html" class="btn btn-primary">احصل على استشارة مجانية</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo_processed.png" alt="VITACTIVE Logo">
+                    </a>
+                    <p class="footer-about">
+                        VITACTIVE هي شركة رائدة في مجال المكملات الغذائية والفيتامينات، تقدم منتجات عالية الجودة لدعم الصحة والعافية.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="footer-title">روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="products.html">المنتجات</a></li>
+                        <li><a href="services.html">الخدمات</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer-title">المنتجات</h3>
+                    <ul class="footer-links">
+                        <li><a href="products.html">الفيتامينات</a></li>
+                        <li><a href="products.html">المعادن</a></li>
+                        <li><a href="products.html">مكملات البروتين</a></li>
+                        <li><a href="products.html">مكملات الطاقة</a></li>
+                        <li><a href="products.html">مكملات المناعة</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer-title">الخدمات</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">استشارات تغذوية</a></li>
+                        <li><a href="services.html">خطط غذائية مخصصة</a></li>
+                        <li><a href="services.html">توصيل سريع</a></li>
+                        <li><a href="services.html">اشتراكات شهرية</a></li>
+                        <li><a href="services.html">ورش عمل وندوات</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    &copy; 2025 VITACTIVE. جميع الحقوق محفوظة.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
